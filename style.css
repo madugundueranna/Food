@@ -1,0 +1,260 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    margin: 0;
+    padding: 8px 16px 8px 16px;
+    width: 1487.200px;
+    height: 60px;
+    border: 4px solid black
+}
+
+.container {
+    width: 1110px;
+    height: 60px;
+    margin-left: 173.600px;
+    margin-right: 173.600px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.navbar-brand {
+    width: 70px;
+    height: 50px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-right: 16px;
+}
+
+.navbar-brand img {
+    width: 70px;
+    height: 50px;
+}
+
+.navbar-collapse {
+    position: relative;
+    bottom: 40px;
+    width: 1024px;
+    height: 40px;
+}
+
+.navbar-collapse .navbar-nav {
+    margin-left: 453.587px;
+    width: 570.412px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 100px;
+
+}
+
+.navbar-collapse .navbar-nav a {
+    font-family: "Roboto";
+    font-size: 17px;
+    text-decoration: none;
+    color: #323f4b;
+
+}
+
+
+/* Banner section    ---------------------------       ---------------------- */
+
+
+.banner-section {
+    background-image: url("https://img.freepik.com/free-photo/freshly-cooked-gourmet-seafood-paella-plate-generated-by-ai_188544-43130.jpg?t=st=1718196760~exp=1718200360~hmac=4254673f7095e03715fbbbddc9470d913c627238a4e424d0d495d280aeaa1971&w=1060");
+    height: 100vh;
+    background-size: cover;
+
+    /* border: 10px solid rgb(52, 203, 22); */
+}
+
+.text-center {
+    /* border: 10px solid rgb(52, 203, 22); */
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* text-align: center; */
+    color: white;
+}
+
+.text-center .banner-heading {
+    font-size: 40px;
+}
+
+.text-center .banner-caption {
+    font-size: 30px;
+}
+
+
+.button-group {
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 10px solid rgb(52, 203, 22); */
+    width: 400px;
+    /* color: white;
+    background-image: linear-gradient(#d0b200, #a58d00);
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px; */
+}
+
+.button-group .custom-button {
+    background-image: linear-gradient(#d0b200, #a58d00);
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.button-group .custom-outline-button {
+    color: #d0b200;
+    background-color: transparent;
+    width: 130px;
+    height: 45px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d0b200;
+    border-radius: 8px;
+}
+
+/* Banner section   end  ---------------------------       ---------------------- */
+
+
+/* ------------ Why Choose Us section start */
+.wcu-section {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    width: 1519.200px;
+    height: 383.600px;
+}
+
+.wcu-section .container {
+    margin-left: 189.600px;
+    margin-right: 189.600px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 30vh;
+}
+
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+    width: 1160px;
+    height: 283.600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.food-service .card {
+    width: 316.400px;
+    height: 252.400px;
+    padding: 16px;
+    border: 1px;
+    margin-bottom: 16px;
+
+
+}
+
+.food-service .card .card-title {
+    margin-top: 21.440px;
+    margin-bottom: 21.440px;
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
+
+.card-image {
+    position: relative;
+    left: 100px;
+}
+
+
+
+/* end */
+
+
+
+ .explore-menu-section {
+    background-color: white;
+    padding: 48px 0;
+    width: 100%;
+
+}
+
+.menu-container {
+    /* border: solid 3px black; */
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1000px;
+}
+
+.menu-section-heading {
+    margin-bottom: 24px;
+    color: #183b56;
+    font-family: "Roboto", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.menu-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menu-card {
+    width: 255px;
+    height: auto;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+    overflow: hidden;
+    text-align: center;
+    background-color: #fff;
+}
+
+.menu-card-image {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+.menu-card-title {
+    color: #323f4b;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 16px 0;
+}
+
+.menu-card-link {
+    color: #007bff;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.menu-card-link:hover {
+    text-decoration: underline;
+}
+
+.arrow-icon {
+    fill: currentColor;
+}
