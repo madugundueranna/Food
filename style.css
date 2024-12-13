@@ -188,7 +188,7 @@ body {
 
 
 
- .explore-menu-section {
+.explore-menu-section {
     background-color: white;
     padding: 48px 0;
     width: 100%;
@@ -257,4 +257,76 @@ body {
 
 .arrow-icon {
     fill: currentColor;
+}
+
+
+
+/* food */
+
+.healthy-food-section {
+    background-color: #f9fbfe;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+/* .healthy-container{
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1110px;
+    height: 251.400px;
+    margin-left: 189.600px;
+    margin-right: 189.600px;
+
+} */
+
+.healthy-container {
+    padding: 0 15px;
+    width: 1110px;
+    height: 251.4px;
+    margin: 0 189.6px;
+
+}
+
+.row-healthy {
+    display: flex;
+
+}
+.healthy-text-center{
+   padding-left: 50px;
+}
+.healthy-food-section-img {
+    width: 270px;
+    left: 50px;
+
+}
+
+.Healthy-heading {
+    position: relative;
+    left: 180px;
+
+}
+
+.healthy-food-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.healthy-food-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+    width: 540px;
+    height: 96px;
+}
+
+.custom-button {
+    color: white;
+    background-image: linear-gradient(#d0b200, #a58d00);
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
 }
